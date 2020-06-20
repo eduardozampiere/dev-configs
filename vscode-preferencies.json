@@ -1,0 +1,61 @@
+{
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.labelFormat": "short",
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json"
+  },
+
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "typescript.tsserver.log": "verbose",
+  "typescript.suggest.autoImports": true,
+
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.shell.linux": "/bin/bash",
+
+  "git.autofetch": true,
+
+  "explorer.confirmDelete": false,
+
+  "html.format.indentInnerHtml": true,
+
+  "window.zoomLevel": 0,
+
+  "extensions.ignoreRecommendations": true,
+
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 23,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d"
+  }
+}
